@@ -1,0 +1,48 @@
+{
+    "etudiants": [
+      {
+        "id": 1,
+        "nom": "khoudja",
+        "prenom": "camara",
+        "age": 20,
+        "classe": "L1dev",
+        "telephone": "78",
+        "classeId": "1",
+        "email": "camara@gmail.com",
+        "motsdepasse": "123a",
+        "role": "etudiant"
+      },
+      {
+        "id": 2,
+        "nom": "Moussa",
+        "prenom": "fall",
+        "age": 25,
+        "classe": "L2gl",
+        "telephone": "77",
+        "classeId": "2",
+        "email": "moussan@gmail.com",
+        "motsdepasse": "123456b",
+        "role": "etudiant"
+      }
+    ],
+    "professeurs": [
+      {
+        "id": 1,
+        "nom": "Aline",
+        "prenom": "ndiaye",
+        "email": "line@gmail.com",
+        "motsdepasse": "654321c",
+        "role": "professeur"
+      }
+    ],
+    "administrateur": [
+      {
+        "email": "admin@gmail.com",
+        "motsdepasse": "123456d",
+        "prenom": "badara",
+        "nom": "diouf",
+        "role": "admin"
+      }
+    ]
+  }
+  

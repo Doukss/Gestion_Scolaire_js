@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrateur</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-900 font-sans flex flex-col items-center justify-center min-h-screen">
+
+    <div class="flex justify-between items-center mb-6">
+        <h1 class="text-4xl font-bold text-blue-600">Partie, Administrateur</h1>
+        <button onclick="logout()"
+            class="bg-blue-600 text-white px-6 py-2 ml-48 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-300">
+            Déconnexion
+        </button>
+    </div>
+    <div class="w-full max-w-4xl bg-white rounded-lg shadow-lg p-6">
+        <a href="#">
+            <div class="w-24 h-10 bg-blue-600 text-white text-center p-2 rounded-lg ml-[90%]">Ajout</div>
+        </a>
+        <div id="etudiants-list">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-4">Liste des étudiants</h2>
+            <div class="overflow-x-auto rounded-lg border border-gray-300">
+                <table class="min-w-full table-auto">
+                    <thead class="bg-green-600 text-gray-700">
+                        <tr>
+                            <th class="px-4 py-2 border-b">Nom</th>
+                            <th class="px-4 py-2 border-b">Prénom</th>
+                            <th class="px-4 py-2 border-b">Classe</th>
+                            <th class="px-4 py-2 border-b">Email</th>
+                            <th class="px-4 py-2 border-b">Téléphone</th>
+                        </tr>
+                    </thead>
+                    <tbody id="etudiants">
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="../javascript/script.js"></script> 
+</body>
+
+</html>
