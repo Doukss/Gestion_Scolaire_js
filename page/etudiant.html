@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page Étudiant</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.min.css">
 </head>
 <body>
 
@@ -20,14 +21,17 @@
         <!-- Les cours seront insérés dynamiquement ici -->
       </div>
     </div>
+
+
+     <!-- Bouton Déconnexion -->
+ 
+    <button onclick="logout()"><i class="ri-logout-circle-fill text-2xl text-red-500"> Déconnexion</i>
+       
+    </button>
+
   </div>
 
- <!-- Bouton Déconnexion -->
- <div class=" ml-[73%] ">
-    <button onclick="logout()" class="  bg-red-500 text-white px-6 py-3 rounded-lg text-lg font-semibold shadow-md transition transform hover:bg-red-600 hover:scale-105">
-        Déconnexion
-    </button>
- </div>
+
 
 
     <script src="../javascript/script.js"></script>

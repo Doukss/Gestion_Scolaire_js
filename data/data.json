@@ -40,7 +40,7 @@
       "id": 1,
       "name": "Maquettage",
       "teacher": "Manssour",
-      "class": "Classe A",
+      "class": "Dev/Gl",
       "schedule": "Lundi 10h - 12h",
       "room": "Salle 1"
     },
@@ -48,7 +48,7 @@
       "id": 2,
       "name": "Php",
       "teacher": "Badara",
-      "class": "Classe A",
+      "class": "Dev/Gl",
       "schedule": "Mardi 14h - 16h",
       "room": "Salle 2"
     },
@@ -56,7 +56,7 @@
       "id": 3,
       "name": "Javascript",
       "teacher": "M. Diouf",
-      "class": "Classe A",
+      "class": "Dev/Gl",
       "schedule": "Mercredi 08h - 10h",
       "room": "Salle 3"
     }
