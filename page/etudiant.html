@@ -6,21 +6,31 @@
     <title>Page Étudiant</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="flex items-center justify-center h-screen bg-gradient-to-br from-green-200 to-green-400">
+<body>
 
-    <!-- Carte Étudiant -->
-    <div class="bg-white p-8 rounded-2xl shadow-xl w-96 text-center">
-        <h1 class="text-3xl font-extrabold text-green-700">Bienvenue, Étudiant</h1>
-        <p class="text-gray-600 mt-2">Accédez à vos cours et informations.</p>
-
-        
-
-        <!-- Bouton Déconnexion -->
-        <button onclick="logout()" class="mt-6 bg-red-500 text-white px-6 py-3 rounded-lg text-lg font-semibold shadow-md transition transform hover:bg-red-600 hover:scale-105">
-            Déconnexion
-        </button>
+    
+<div class="min-h-screen bg-gray-100 p-6">
+    <div class="max-w-4xl mx-auto bg-white shadow-md rounded-lg p-6">
+      <h1 class="text-2xl font-bold text-gray-800 mb-4">Tableau de bord étudiant</h1>
+      <div class="bg-blue-100 p-4 rounded-lg mb-4">
+        <h2 class="text-lg font-semibold text-blue-800">Votre Classe : Dev Web/GL</h2>
+      </div>
+      <h2 class="text-xl font-semibold text-gray-700 mb-3">Vos cours</h2>
+      <div id="courses" class="space-y-3">
+        <!-- Les cours seront insérés dynamiquement ici -->
+      </div>
     </div>
+  </div>
+
+ <!-- Bouton Déconnexion -->
+ <div class=" ml-[73%] ">
+    <button onclick="logout()" class="  bg-red-500 text-white px-6 py-3 rounded-lg text-lg font-semibold shadow-md transition transform hover:bg-red-600 hover:scale-105">
+        Déconnexion
+    </button>
+ </div>
+
 
     <script src="../javascript/script.js"></script>
+    <script src="../javascript/class.js"></script>
 </body>
 </html>
